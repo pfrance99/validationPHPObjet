@@ -1,0 +1,9 @@
+<h1>Modifier la page : %%TITLE%%</h1>
+<form action="updateAction" method="POST">
+  <input type="hidden" placeholder="title" value="%%TITLE%%" name="title" />
+  <label>Contenu de la page</label>
+  <textarea name="content">%%CONTENT%%</textarea>
+  <label>Affichage(BETA)</label>
+  <input type="checkbox" name="hidden" %%HIDDEN%%/>
+  <input type="submit" value="Modifier">
+</form>
